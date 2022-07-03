@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading-color {
+    color: #ffa500;
+}
+
+section {
+    display: flex;
+}
+
+.header-bar {
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.header-bar img {
+    width: 85%;
+}
