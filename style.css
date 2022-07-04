@@ -81,9 +81,11 @@ H2{
 
 
 .experience-box {
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
+    /* background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat; */
+    /* background-position: left bottom; */
+    position:relative;
+    z-index: 0;
 }
 
 .experience-item {
@@ -94,3 +96,21 @@ H2{
     box-shadow: -4px 10px 40px #dbdbdb;
     border-radius: 10px;
 }
+
+#jr-web {
+    border-left: 6px solid #FF684B;
+}
+
+#noob-web {
+    border-left: 6px solid #4baeff;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* footer {
+    bottom:0;
+    width:100%;
+    height:60px; 
+} */
