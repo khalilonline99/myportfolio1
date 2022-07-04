@@ -1,7 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    margin: 0;
 }
+
 
 h1 {
     font-size: 50px;
@@ -16,14 +18,24 @@ section {
     display: flex;
 }
 
-.header-bar {
+.header-bar1 {
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 3%;
+    margin-left: 50px;
+}
+
+.header-bar2 {
     width: 50%;
     /* background-color: aqua; */
     padding: 3%;
 }
 
-.header-bar img {
-    width: 70%;
+.header-bar2 img {
+    /* width: 70%; */
+    max-width: 600px;
+    max-height: auto;
+    /* height: auto; */
 }
 
 .hire-me {
@@ -37,5 +49,9 @@ section {
     color: #FFFFFF;
     border-color: #FF684B;
     border-radius: 5px;
+}
 
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
