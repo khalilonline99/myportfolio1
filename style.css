@@ -10,11 +10,16 @@ h1 {
     font-weight: 700;
 }
 
+H2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
 .heading-color {
     color: #ffa500;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -60,5 +65,32 @@ section {
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
+    display: flex;
+    /* margin-bottom: 100px; */
+}
+
+.dream-box {
+    width: 60%;
+    /* background-color: aqua; */
+    padding-left: 3%;
+    padding-right: 1%;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+
+.experience-box {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.experience-item {
+    width: 50%;
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: -4px 10px 40px #dbdbdb;
+    border-radius: 10px;
 }
